@@ -1,0 +1,129 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+a, p, div, ul, li {
+    font-family: 'Ubuntu', 'Open Sans',  sans-serif;
+}
+div#wrapperBody {
+	width: 100%;
+	padding-top: 43px;
+	margin: 0px;
+	background-image: url('/images/infographBG.png');
+}
+div#home {
+	width: 100%;
+	height: 450px;
+	background-image: url('../images/hBannerFood.png');
+	padding: 0px;
+	margin: 0px;
+}
+#homePic {
+	width: 30%;
+	float: left;
+}
+#homeBody {
+	width: 60%;
+	float: right;
+	margin: 50px auto;
+	text-align: left;
+}
+#homeBody h1 {
+	color: white;
+}
+#homeBody h2 {
+	color: white;
+	padding: 0px 40px;
+}
+#homeBody ul {
+	margin: 100px 90px;
+	padding: 50px auto;
+}
+#homeBody ul li {
+	display: inline;
+	margin: 0px 10px;
+	border: 1px solid white;
+	border-radius: 0%;
+	padding: 10px 10px;
+}
+#homeBody ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+#homeBody li a:hover {
+	color: black;
+	opacity: 20%;
+}
+div#search {
+	width: 75%;
+	height: 650px;
+
+	padding: 0px;
+	margin: 0px auto;
+	text-align: center;	
+}
+#searchLeftTop {
+	width: 80%;
+	height: 50%;
+	background-image: url('/images/infographL.png');
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+	margin: auto;	
+}
+#searchMidTop {
+	width: 80%;
+	height: 50%;
+	background-image: url('/images/infographM.png');
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+	margin: auto;	
+}
+#searchRightTop {
+	width: 80%;
+	height: 50%;	
+	background-image: url('/images/infographR.png');
+	background-repeat: no-repeat;
+	background-size: 90% 90%;
+	margin: auto;	
+}
+#searchBot {
+	margin: auto;
+	padding: auto;
+}
+#searchLeft {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	margin: 20px auto;
+	height: 520px;
+}
+#searchMid {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	margin: 20px auto;
+	height: 520px;
+}
+#searchRight {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	margin: 20px auto;
+	height: 520px;
+}
+div#question {
+	width: 100%;
+	height: 250px;
+	background-image: url('../images/hBannerFood.png');
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	text-align: center;	
+}
+div#questionContent {
+	width: 45%;
+	height: 225px;
+	padding: 20px 0px;
+	margin: auto;
+}		

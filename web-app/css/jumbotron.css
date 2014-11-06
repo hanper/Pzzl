@@ -1,0 +1,85 @@
+/*Start of Header Navigation*/
+div#logo {
+    background-image: url('../images/PuzleLogo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 20px;
+    float: left;
+
+}
+.form-group a {
+	display: inline-block;
+	text-decoration: none;
+	color: #00b0e6;     /*Green: #00b488*/
+    margin:  0px 10px;
+    font-family: 'Open Sans';
+}
+.form-group a:hover,
+.form-group a:focus {
+	color: #777;
+    background-color: transparent;
+}
+/*End of Header Navigation*/
+/*Start of Body*/
+div#bodyController {
+    text-align: right;
+    margin: 20px auto;
+    padding:  50px 0px;
+}
+#bodyButton {
+    text-align: right;
+    padding-top:  50px;
+}
+/*End of Body*/
+/*Start of 3 rows*/
+div#rowController {
+    text-align: center;
+}
+#searchLeftTop {
+    height: 320px;
+	background-image: url('/images/infographL.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#searchMidTop {
+	height: 320px;
+	background-image: url('/images/infographM.png');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#searchRightTop {
+	height: 320px;	
+	background-image: url('/images/infographR.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*End of 3 rows*/
+/*Start of Site Map*/
+#mapFooter ul li {
+	margin: 0px 5px;
+}
+#mapFooter ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #777;
+}
+#mapFooter li a:hover {
+	color: #00a1f1;
+    font-size:  15px;
+}
+/*End of Site Map*/
+/*Start of Footer*/
+div#siteRule {
+    display: inline-block;
+}
+#siteRule a {
+    text-decoration:  none;
+    color:  #3e3e3e;
+    margin-left: 10px;
+}
+#siteRule a:hover,
+#siteRule a:focus {
+    color: #00b0e6;
+}
+/*End of Footer*/

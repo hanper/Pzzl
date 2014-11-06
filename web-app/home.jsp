@@ -4,9 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Тавтай морил за юу!!!</title>
-<link href="/css/main.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans:800&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Тавтай морил</title>
+	<jsp:include page="/includes/links.jsp"></jsp:include>
 </head>
 <body>
 

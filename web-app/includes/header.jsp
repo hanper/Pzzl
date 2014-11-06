@@ -1,22 +1,31 @@
 <%@ page language="java" contentType="text/html; UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
 
-</head>
-<body>
-	<div id="wrapperHead">
-		<div id="logo"></div>
-		<div id="header">
-			<ul>
-				<li><a href="#home">Нүүр</a></li>
-				<li><a href="#search">Мэдээлэл</a></li>
-				<li><a href="#question">Холбогдох</a></li>
-				<li><a href="#info">Нэвтрэх</a></li>
-<!-- 				<li><a href="#infoContact">Холбогдох</a></li>
-				<li><a href="#login">Нэвтрэх</a></li> -->
-			</ul>
-		</div>
-	</div>
-</body>
-</html>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Цэс</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><div id="logo"></div>&nbsp;Puzzle Agency</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <form class="navbar-form navbar-right" role="form">
+		<div class="form-group">
+            <a href="#home">Нүүр</a>
+        </div>
+        <div class="form-group">                
+            <a href="#search">Мэдээлэл</a>
+        </div>
+        <div class="form-group">                
+            <a href="#question">Холбогдох</a>
+        </div>
+        <div class="form-group">                
+			<a href="#info">Нэвтрэх</a>
+  		</div>
+      </form>
+    </div><!--/.navbar-collapse -->
+  </div>
+</nav>

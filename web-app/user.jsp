@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -9,16 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Нүүр</title>
+    <title>Тавтай морил</title>
 	<jsp:include page="/includes/links.jsp"></jsp:include>
 </head>
-<body>
 
-	<jsp:include page="/includes/header.jsp"></jsp:include>
-	<jsp:include page="/includes/homeHeader.jsp"></jsp:include>
-	<jsp:include page="/includes/adv.jsp"></jsp:include> 
-	<jsp:include page="/includes/body.jsp"></jsp:include>
-	<jsp:include page="/includes/footer.jsp"></jsp:include>
+<div id="wrapper">
+	<jsp:include page="/includes/navbar.jsp"></jsp:include>
+	<jsp:include page="/customer/customerBody.jsp"></jsp:include>
+	<jsp:include page="/includes/footer.jsp"></jsp:include>  
+</div>
 
-</body>
-</html>
+<script src="js/sb-admin-2.js"></script>
+<script src="js/plugins/metisMenu/metisMenu.min.js"></script>
+

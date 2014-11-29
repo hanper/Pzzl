@@ -1,142 +1,174 @@
-/*__________________________ */
-/*Header == CSS starts here */
-/*_________________________*/
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
+/*======================================*/
+/*========This is start of job.jsp=====*/
+/*====================================*/
+div#searchResult {
+	border: 2px solid white;
+	border-radius: 30px;
+	margin: 5px auto;
 }
-a, p, div, ul, li {
-    font-family: 'Ubuntu', 'Open Sans',  sans-serif;
-}
-div#wrapperHead {
-	background: #fcfcfc; /* Old browsers */
-	background: -moz-linear-gradient(top,  #fcfcfc 0%, #fffff4 93%, #000000 94%, #e0e0e0 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(93%,#fffff4), color-stop(94%,#000000), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #fcfcfc 0%,#fffff4 93%,#000000 94%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #fcfcfc 0%,#fffff4 93%,#000000 94%,#e0e0e0 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #fcfcfc 0%,#fffff4 93%,#000000 94%,#e0e0e0 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #fcfcfc 0%,#fffff4 93%,#000000 94%,#e0e0e0 100%); /* W3C */
-	width: 100%;
-	height: 50px;
-	padding: 0px;
-	margin: -10px -5px;
-	position: fixed;
-}
-div#logo {
-	background-image: url('../images/PuzleLogo.png');
-	background-size: 35% 50%;
-	background-repeat: no-repeat;
-	width: 15%;
-	height: 45px;
-	float: left;
-	margin: 14px 100px;
-}
-div#header {
-	width: 60%;
-	float: right;
-	text-align: right;
-	margin-right: 30px;
-	padding: 0px;
-}
-#header ul li {
-	display: inline;
-	margin: 0px 10px;
-	padding: 10px 10px;
-}
-#header ul li a {
+#searchResult a, h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	text-decoration: none;
-	color: #545050;
-	font-family: 'Open Sans', sans-serif;
 }
-/*
-#header li:hover {
-	background-color: #85c7c4;
-	color: #121212;
-	padding: 5px 15px 5px 15px;
-	font-size: 17px;
+#searchResult p {
+	margin-left: 5px;
 }
-*/
-#header li a:hover {
-	color: #121212;
-	padding: 0px 10px;
-	font-size: 17px;
+#searchResult img {
+	margin: 10px 0;
+}
+/*======================================*/
+/*========This is end of job.jsp=====*/
+/*====================================*/
+/*======================================*/
+/*========This is start of adv.jsp=====*/
+/*====================================*/
+body {
+    overflow-x: hidden;
+}
+.img-centered {
+    margin: 0 auto;
+}
+section {
+    padding: 0 0px;
+    margin: auto;
+}
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 0 0px;
+    padding: 0 0;
 }
 
-/*_________________________*/
-/*Header == CSS ends here */
-/*Footer == CSS starts here */
-/*_______________________*/
-div#wrapperFooter {
-	background-color: #1C1C1C;
-	width: 100%;
-	height: 350px;
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
 }
-div#mapFooter {
-	background-image: url('/images/mapBG3.png');
-	width: 100%;
-	height: 350px;
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
 }
-#mapFooter h1 {
-	color: white;
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
 }
-#mapFooterLeft {
-	width: 25%;
-	float: left;
-	position: relative;
-	left: 5%;
-	overflow: hidden;
-	margin: auto;
-	height: 350px;
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
 }
-#mapFooterMid {
-	width: 25%;
-	float: left;
-	position: relative;
-	left: 5%;
-	overflow: hidden;
-	margin: auto;
-	height: 350px;
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
 }
-#mapFooterRight {
-	width: 25%;
-	float: right;
-	position: relative;
-	overflow: hidden;
-	margin: auto;
-	height: 350px;
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
 }
-#mapFooterBot ul li {
-	margin: 0px 5px;
+
+#portfolio * {
+    z-index: 2;
 }
-#mapFooterBot ul li a {
+/*======================================*/
+/*========This is end of adv.jsp=======*/
+/*====================================*/
+.navbar-brand img {
+	display: inline-block;
+	height: 20px;
+}
+div#home {
+	background-image: url('/images/infographBG.png');
+/* 	background-size: 100% 100%;
+	background-repeat: no-repeat; */
+	margin-bottom: 0;
+	padding: 50px 0;
+}
+.form-group a {
 	display: inline-block;
 	text-decoration: none;
-	color: #D8D8D8;
+	color: #00b0e6;     /*Green: #00b488*/
+    margin:  0px 10px;
+    font-family: 'Open Sans';
 }
-#mapFooterBot li a:hover {
-	color: #69c8ff;
+.form-group a:hover,
+.form-group a:focus {
+	color: #777;
+    background-color: transparent;
 }
-#mapFooterBot {
-	width: 100%;
-	text-align: left;
-	padding: 0px;
-	color: #D8D8D8
+/*End of Header Navigation*/
+/*Start of Body*/
+div#bodyController {
+    text-align: right;
+    padding:  50px 0px;
 }
-div#infoFooter {
-	background-image: url('/images/footerBG.png');
-	height: 50px;
-	width: 100%;
-	float: left;
+#bodyButton {
+    text-align: right;
+    padding-top:  50px;
 }
-#infoFooter ul li {
-	display: inline;
-	margin: 0px 5px;
+/*End of Body*/
+/*Start of 3 rows*/
+div#rowController {
+    text-align: center;
 }
-#infoFooter ul li a {
+#rowController img {
+	width: 75%;
+	height: 75%;
+	margin: auto;
+}
+div#search {
+	background-color: white;
+}
+/*End of 3 rows*/
+/*Start of Site Map*/
+#mapFooter ul {
+	list-style: square;
+}
+#mapFooter ul li {
+	margin: 3px 2px;
+}
+#mapFooter ul li a {
 	display: inline-block;
 	text-decoration: none;
-	color: white;
+	color: #777;
 }
-#infoFooter li a:hover {
-	color: blue;
+#mapFooter li a:hover {
+	color: #00a1f1;
+    font-size:  15px;
 }
+#mapFooter ul li a img {
+	display: inline-block;
+	opacity: 0.8;
+}
+#mapFooter li a img:hover {
+    opacity:  1;
+}
+
+/*End of Site Map*/
+/*Start of Footer*/
+div#siteRule {
+    display: inline-block;
+}
+#siteRule a {
+    text-decoration:  none;
+    color:  #3e3e3e;
+    margin-left: 10px;
+}
+#siteRule a:hover,
+#siteRule a:focus {
+    color: #00b0e6;
+}
+/*End of Footer*/

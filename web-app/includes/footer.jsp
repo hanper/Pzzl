@@ -2,40 +2,42 @@
 
 <div class="container">
 	<div class="row">
-	    <div class="col-md-4">
-			<h2>COMPANY</h2>
+	    <div class="col-sm-3">
+			<h2>Байгуулга</h2>
 			<div id="mapFooter">
 				<ul>
-					<li><a href="">About</a></li>
-					<li><a href="">Contact</a></li>
-					<li><a href="">Jobs</a></li>
-					<li><a href="">Team</a></li>
-					<li><a href="">Press Release</a></li>
-					<li><a href="">Buzz</a></li>
-					<li><a href="">Testimonials</a></li>
+					<li><a href="">Тухай</a></li>
+					<li><a href="">Танилцуулга</a></li>
+					<li><a href="">Нэмэлт мэдээлэл</a></li>
+					<li><a href="">Манай баг</a></li>
+					<li><a href="">Хамтарч ажлах</a></li>
+					<li><a href="">Ажлын байр</a></li>
+					<li><a href="">Холбогдох</a></li>
 				</ul>
 			</div>
 	    </div>
-	    <div class="col-md-4">
-			<h2>RESOURCES</h2>
+	    <div class="col-sm-3" >
+			<h2>Ажил олгох|хайх</h2>
 	        <div id="mapFooter">
 				<ul>
-					<li><a href="">Become a designer</a></li>
-					<li><a href="">Affiliates</a></li>
-					<li><a href="">Help</a></li>
+					<li><a href="">Ажил олгогчид</a></li>
+					<li><a href="">Ажил хайгчид</a></li>
+					<li><a href="">Тусламж</a></li>
 				</ul>
 	        </div>
 	   </div>
-	    <div class="col-md-4">
-			<h2>SOCIAL</h2>
+	    <div class="col-sm-6" style="text-align: right;">
+			<h2>Нийтийн сүлжээ</h2>
 	        <div id="mapFooter">
-				<ul>
-					<li><a href="">Customer Blog</a></li>
-					<li><a href="">Designer Blog</a></li>
-					<li><a href="">Twitter</a></li>
-					<li><a href="">Facebook</a></li>
-					<li><a href="">Google+</a></li>
-					<li><a href="">Pinterest</a></li>
+				<ul style="list-style: none;">
+					<li><a href=""><img src="/images/icons/facebook.png" alt="facebook"></img></a>
+						<a href=""><img src="/images/icons/twitter.png" alt="twitter"></img></a>
+						<a href=""><img src="/images/icons/linkedin.png" alt="linkedin"></img></a>
+						<a href=""><img src="/images/icons/googleplus.png" alt="google+"></img></a></li>
+					<li><a href=""><img src="/images/icons/email.png" alt="email"></img></a>
+						<a href=""><img src="/images/icons/youtube.png" alt="youtube"></img></a>
+						<a href=""><img src="/images/icons/tumblr.png" alt="tumblr"></img></a>
+						<a href=""><img src="/images/icons/instagram.png" alt="instagram"></img></a></li>
 				</ul>
 			</div>
 	   </div>

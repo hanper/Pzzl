@@ -21,7 +21,7 @@
 	
 	<c:forEach var='jobByIndex' items='Logo design, Web design, Namecard design'>
 	<div class="post">
-		<h4><c:out value='${jobByIndex}'/></h4>
+		<h4><a href="/job/jobDetail.jsp" ><c:out value='${jobByIndex}'/></a></h4>
 		<p><c:out value='Энд ямар утга байх нь үл мэдэгдэх агаад, ямар утга оноогдохыг хэн ч үл мэднэ.'/></p>
 		<small>date</small>
 		<p class="pull-right"><a href=""><span class="glyphicon glyphicon-log-out"></span></a></p>

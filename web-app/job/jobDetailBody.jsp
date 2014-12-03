@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
+<!-- This is JOB DETAIL PAGE -->
+<!-- ======================= -->
+<!-- CSS: job.css -->
+
 <div class="container" style="min-height: 650px; margin-top: 40px;">
 <!-- <hr> -->
 <p><strong>Захиалагч нэр: </strong><span><a href="">Алтан-Ураг</a></span></p>
@@ -47,8 +51,9 @@
                 </div>
 
                 <div class="well">
-
+		
                     <div class="text-right">
+                    	<a class="btn btn-success" href="/job/jobBid.jsp">Оролцох</a>
                         <a class="btn btn-success">Асуулт үлдээх</a>
                     </div>
 

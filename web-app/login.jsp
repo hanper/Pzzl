@@ -11,7 +11,7 @@
 	<jsp:include page="/includes/msgBar.jsp"></jsp:include>
 	<jsp:include page="/user/loginBody.jsp"></jsp:include>
 	<jsp:include page="/user/registerBody.jsp"></jsp:include>
-	<jsp:include page="/user/passRecBody.jsp"></jsp:include>	
+	<jsp:include page="/user/passChangeBody.jsp"></jsp:include>	
 	<jsp:include page="/includes/footer.jsp"></jsp:include>
 
 </body>

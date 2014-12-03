@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
+<!-- This is JOB POST BODY page -->
+<!-- ======================== -->
+<!-- CSS: job.css -->
+
 <div class="container">
 <div style="min-height: 650px; margin-top: 40px;">
 	<form class="form-horizontal" role="form" action="login" method="POST">

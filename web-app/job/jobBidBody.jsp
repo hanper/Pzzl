@@ -1,7 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<div class="" style="width: 100%; height: 100%; margin: 100px auto;" >
-<div class="" style="width: 50%; height: 100%; margin: 100px auto;" >
+<!-- This is JOB BID BODY page -->
+<!-- ======================== -->
+<!-- CSS: job.css -->
+
+<div class="formWrapper">
+<div class="formBody">
 	<form class="form-horizontal" role="form" action="login" method="POST">
 		<div class="form-group">
 			<label for="loginName" class="col-sm-4 control-label" >Гарчиг: </label>

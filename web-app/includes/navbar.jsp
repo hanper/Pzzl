@@ -185,6 +185,9 @@
                 <li>
                     <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Ажил<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
+                    	<li>
+                            <a href="/job/jobPost.jsp">Ажил зарлах</a>
+                        </li>
                         <li>
                             <a href="">Зарласан ажил</a>
                         </li>

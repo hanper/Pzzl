@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; UTF-8" pageEncoding="UTF-8"%>
 
+<!-- Body of Homepage. -->
+<!-- ============================== -->
+<!-- CSS: main.css -->
 <div class="jumbotron" id="search">
 <div class="container">
   <!-- Example row of columns -->

@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
+<!-- Head Banner. Commented section is for carousel banner, which has an error, -->
+<!-- ======================= -->
+<!-- CSS: main.css -->
+
 <!-- <div class="container" style="position: absolute;z-index: 2000; margin-top: 250px; margin-left: 110px; ">
 	<h1 style="margin-left: 40px;">Таны ажлыг хөнгөвчлөнө</h1>
 	<p style="margin-left: 100px;">Бүгдийг мэргэжлийнхэнд даатга, Хормын дотор бүгд бэлэн!</p>
@@ -65,7 +69,7 @@
 			    	<span class="help-block">Жишээ: Программист, Орчуулагч, Цагийн ажил, Дизайнер</span>
 			  	</div>
 	            <div id="bodyButton">
-	                <a class="btn btn-primary btn-lg" href="#" role="button">Ажил олгох &raquo;</a>
+	                <a class="btn btn-primary btn-lg" href="/user.jsp" role="button">Ажил олгох &raquo;</a>
 	                <a class="btn btn-primary btn-lg" href="/job.jsp" role="button">Ажил хайх &raquo;</a>
 	            </div>
 			</form>  

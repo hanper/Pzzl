@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; UTF-8" pageEncoding="UTF-8"%>
 
+<!-- Footer. Used for every pages. -->
+<!-- ================================== -->
+<!-- CSS: main.css -->
 <div class="container">
 	<div class="row">
 	    <div class="col-sm-3">

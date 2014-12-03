@@ -6,14 +6,18 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Ажил зарлах</title>
 	<jsp:include page="/includes/links.jsp"></jsp:include>
 </head>
 <body>
-
-<jsp:include page="/includes/userNav.jsp"></jsp:include>
-<jsp:include page="/job/jobDetailBody.jsp"></jsp:include>
-<jsp:include page="/includes/footer.jsp"></jsp:include>
+<div id="wrapper">
+	<jsp:include page="/includes/navbar.jsp"></jsp:include>
+	<jsp:include page="/job/jobPostBody.jsp"></jsp:include>
+	<jsp:include page="/includes/footer.jsp"></jsp:include>  
+</div>
 
 </body>
 </html>

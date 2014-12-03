@@ -1,6 +1,9 @@
 <%@ page language="java" contentType="text/html; UTF-8" pageEncoding="UTF-8"%>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="z-index: 3000;">
+<!-- Black Headerbar used for Home, Login pages -->
+<!-- ========================================== -->
+<!-- CSS: main.css -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -26,6 +29,6 @@
 			<a href="/login.jsp">Нэвтрэх</a>
   		</div>
       </form>
-    </div><!--/.navbar-collapse -->
+    </div>
   </div>
 </nav>
